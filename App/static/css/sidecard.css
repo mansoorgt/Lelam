@@ -1,0 +1,276 @@
+body {
+  background-color: rgb(26, 26, 26) !important;
+}
+.card_body {
+  position: fixed;
+  width: 25%;
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(39, 39, 39);
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.name {
+  color: wheat;
+  text-align: center;
+}
+.amount {
+  color: aquamarine;
+  text-align: center;
+}
+.profile {
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  height: 35%;
+  border: 2px solid wheat;
+  border-radius: 20px;
+}
+
+#profilepic {
+  color: wheat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.sidebar-btns {
+  border-radius: 20px;
+
+  width: 100%;
+  height: 100vh;
+}
+.btn-p {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: wheat;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+
+.button-card {
+  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid wheat;
+  background-color: rgb(39, 39, 39);
+  text-decoration: none !important;
+}
+a :hover {
+  text-decoration: none !important;
+}
+
+.button-card :hover {
+  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(
+    rgb(51, 51, 51) 10%,
+    rgba(44, 44, 44, 0) 40%
+  );
+  background-color: rgb(73, 73, 73);
+
+  text-decoration: none !important;
+}
+.large-card {
+  position: fixed;
+  top: 0;
+  left: 26%;
+  width: 73%;
+
+  height: 100vh;
+  background-color: rgb(39, 39, 39);
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.evn-btn {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 40px 300px 200px auto auto;
+  width: 99%;
+  height: 50px;
+  background-color: rgb(39, 39, 39);
+  border-radius: 20px;
+  border-top: 2px solid wheat;
+  border-bottom: 2px solid wheat;
+  color: wheat;
+  margin-left: 5px;
+}
+
+.event-btn :hover {
+  background-color: rgb(46, 46, 46);
+  text-decoration: none;
+}
+.Product-img-icon {
+  grid: 1;
+  margin-top: 3px;
+  margin-left: 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contents {
+  position: relative;
+  display: grid;
+  grid-gap: 10px;
+  color: wheat;
+}
+.name-event {
+  grid: 2;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.status {
+  grid: 3;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.date-time {
+  grid: 4;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Expected-price {
+  grid: 5;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.creater-name {
+  margin-top: -15px;
+}
+.heading-top-contents {
+  color: wheat;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: rgb(26, 26, 26);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 2px solid wheat;
+}
+.heading {
+  margin-left: 10px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.info-side {
+  grid: 1;
+  display: grid;
+  grid-template-rows: 300px 100px 100px;
+  height: 100vh;
+  border-right: 2px solid rgba(245, 222, 179, 0.301);
+}
+.info-side {
+  color: wheat;
+}
+.names {
+  text-transform: uppercase;
+  margin-left: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.photos-col-1 {
+  grid: 1;
+  border-bottom: 2px solid rgba(245, 222, 179, 0.301);
+}
+.lelam-chat-side {
+  grid: 2;
+  grid-template-rows: 10% 90%;
+}
+.price-row-1 {
+  grid: 1;
+}
+.chat-row-2 {
+  grid: 2;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid rgba(245, 222, 179, 0.199);
+}
+.my-green-btn {
+  background-color: rgb(52, 182, 52);
+
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+}
+.my-green-btn {
+  background-color: rgb(52, 182, 52);
+  margin-left: 30%;
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+}
+.green-price {
+  text-align: center;
+}
+.my-count-circle {
+  background-color: wheat;
+  margin-left: 25%;
+  margin-top: -28px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.count-text {
+  color: black;
+  text-align: center;
+}
+.input-type-box {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  height: 50px;
+  border-radius: 20%;
+  border: 5px solid #00ff2a57;
+  background-color: rgb(245, 222, 179);
+}
+.chatbox-area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(207, 102, 102, 0);
+}
+.Chates-area {
+  width: 100%;
+  height: 70%;
+}
+.container-msg {
+  background-color: aqua;
+  display: table;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+#sender-table {
+  margin-left: 10px;
+  position: absolute;
+  bottom: 20%;
+  overflow: auto;
+}
+#user-table {
+  margin-left: 500px;
+  position: absolute;
+  bottom: 20%;
+}
+.Price-txt {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  padding: 10px;
+}
+.container-msg-user {
+  background-color: rgb(87, 255, 109);
+  display: table;
+  border-radius: 20px;
+  margin-top: 20px;
+}
